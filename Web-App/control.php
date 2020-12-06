@@ -162,6 +162,3 @@
             </div>
         </div>
 </div>
-<!-- onclick="alert('Changes Saved')"
-<input type = "submit" name ="on" id="on" value = "Turn On">
-<input type = "submit" name ="off" id="off" value = "Turn Off">-->
