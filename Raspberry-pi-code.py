@@ -99,11 +99,11 @@ def main():
         #SetAtemp(True, finalout[3])
     elif binary[3] == "1":
         SetLights(True, finalout[4])
-    #elif binary[4] == "1":
-        #for i in range(5,len(finalout)-1):
-            #SetTimer(True, finalout[i])
-    #elif finalout[6] == "GetData":
-        #DataUpdate()
+    elif binary[4] == "1":
+        for i in range(5,len(finalout)-1):
+            SetTimer(True, finalout[i])
+    elif finalout[6] == "GetData":
+        DataUpdate()
 
 if __name__ == "__main__":
     while True:
